@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 65%;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Spartan', sans-serif;
+}
+.tittle h1{
+    color: #FF5733;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Spartan', sans-serif;
+    font-size: 8rem;
+    position: relative;
+    text-align: center;
+    right: -100%;
+    font-weight: 900;
+}
+.tittle h2{
+    color: #FFFFFF;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 600;
+    right: -118%;
+    position: relative;
+    font-size: 1.9rem;
+}
+#video_background { 
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
+
+.nav_1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -1%;
+    background-color: #EEEAE9;
+}
+
+.tittle header {
+    position: absolute;
+    bottom: 60%;
+    padding: 0px 40px;
+}
+
+.nav_1 ul li {
+    display: inline-block;
+    list-style: none;
+    font-weight: 900;
+    font-size: 1.4rem;
+    padding: 10px 15px;
+
+}
+
+.nav_1 p {
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 10px 10px; 
+}
+
+.container2{
+    bottom: -105%;
+    position: relative;
+}
+
+.buttonInformation{
+    background-color: transparent;
+    width: 120px;
+    height: 40px;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Spartan', sans-serif;
+    color: #FF5733;
+    outline: none;
+    padding: 0 5px;
+    border-color: #FF5733;
+    border-radius: 5px;
+    border-style: solid;
+    right: -140%;
+    position: relative;
+    bottom: -40px;
+    font-weight: 700;
+}
+
+.buttonInformation:hover {
+    color: #FFFFFF;
+    background-color: #FF5733;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+    width: 120px;
+    height: 38px;
+}
+
+.weB {
+    position: absolute;
+    bottom: -75%;
+    width: 500px;
+    height: 500px;
+    right: 2%;
+}
+.weB2 {
+    position: absolute;
+    bottom: -130%;
+    width: 500px;
+    height: 500px;
+    right: 60%;
+}
+
+.title_1 {
+    font-size: 3rem;
+    padding: 0 40px;
+}
+
+.p1 {
+    font-size: 2rem;
+    padding: 40px 40px;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Spartan', sans-serif;
+}
+
+.container2 .mascota{
+    color: #FF5733;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.p2 {
+    font-size: 2.8rem;
+    padding: 35px 45px;
+    display: inline-block;
+}
+
+footer .copy {
+    bottom: -890px;
+    position: relative;
+    text-align: center;
+    font-size: 1.4rem;
+    color:  #E5D4D0;
+}
+
+.bgfooter {
+    background-color: #162B64;
+    bottom: -900px;
+    position: relative;
+    padding: 0;
+    height: 30px;
+    z-index: 2;
+}
+
+.bgfooter2 {
+    background-color: #9B9B9B;
+    bottom: -862px;
+    position: relative;
+    padding: 0;
+    height: 30px;
+    z-index: 1;
+}
