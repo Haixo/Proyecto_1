@@ -172,3 +172,19 @@ footer .copy {
     height: 30px;
     z-index: 1;
 }
+.container3{
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    bottom: -122%;
+    right: -45%;
+}
+
+.container3 .title2{
+    font-size: 3.4rem;
+    padding: 0 0 40px;
+}
+
+.container3 .p3 {
+    font-size: 2.2rem;
+}
