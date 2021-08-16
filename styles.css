@@ -32,6 +32,7 @@ html{
     right: -118%;
     position: relative;
     font-size: 1.9rem;
+    width:fit-content;
 }
 #video_background { 
     position: absolute;
@@ -67,7 +68,8 @@ html{
     font-weight: 900;
     font-size: 1.4rem;
     padding: 10px 15px;
-
+    color: #FF5733;
+    text-decoration: none;
 }
 
 .nav_1 p {
