@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Comfortaa", cursive;
+}
+
+.nav nav {
+  justify-content: space-evenly;
+  display: flex;
+  padding: 10px 14px;
+  background-color: #FF7456;
+}
+
+.nav ul li {
+  display: inline-block;
+  list-style: none;
+  color: #FFE1DB;
+  padding: 6px 7px;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+.nav p{
+    color: #FFE1DB;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+@media screen and (max-width:1000px){
+    nav{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+}

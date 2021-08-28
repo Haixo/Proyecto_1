@@ -6,6 +6,7 @@
 
 html{
     font-size: 65%;
+    scroll-behavior: smooth;
 }
 
 .container{
@@ -44,6 +45,7 @@ html{
     height: auto;
     z-index: -1000;
     overflow: hidden;
+    opacity: 80%;
 }
 
 .nav_1 {
