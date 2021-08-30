@@ -12,28 +12,83 @@ body {
   justify-content: space-evenly;
   display: flex;
   padding: 10px 14px;
-  background-color: #FF7456;
+  background-color: #ff7456;
 }
 
 .nav ul li {
   display: inline-block;
   list-style: none;
-  color: #FFE1DB;
+  color: #ffe1db;
   padding: 6px 7px;
   font-weight: 300;
   font-size: 1.2rem;
 }
-.nav p{
-    color: #FFE1DB;
-    font-weight: 700;
-    font-size: 2rem;
+
+.nav p {
+  color: #ffe1db;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.nav a {
+  text-decoration: none;
 }
 
-@media screen and (max-width:1000px){
-    nav{
-        flex-direction: column;
-        justify-content: center;
-    }
+.container {
+  width: 60%;
+  height: 80%;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  right: -20%;
+  border-radius: 6%;
+  margin-top: 5%;
+}
 
+.container button {
+  width: 150px;
+  height: 50px;
+  border-style: none;
+  border-radius: 15%;
+  text-align: center;
+}
 
+.container .imgb {
+  width: 12px;
+  height: 12px;
+  position: relative;
+  right: 0px;
+  bottom: -2px;
+}
+.h1a {
+  color: #fcb69f;
+  font-size: 2.5rem;
+  position: relative;
+  padding: 9px;
+  font-weight: 900;
+}
+
+.imgwork {
+  width: 40%;
+  height: 40%;
+  position: relative;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+.h2a {
+  display: inline-flex;
+  position: absolute;
+  left: 25%;
+  top: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+  nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
