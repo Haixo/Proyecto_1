@@ -2,93 +2,110 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Comfortaa", cursive;
+  background-color: #FFE9E4;
+  flex-wrap: wrap;
+  max-width: 87.5rem;
+  min-width: 40em;
 }
-
-.nav nav {
+/** this is a block for container space */
+.mapweb {
+  background-color: #FFF;
+  width: 60%;
+  position: relative;
   justify-content: space-evenly;
+  margin: 0;
+  left: 20.5%;
+  border-radius: 0.5em;
+  top: 12.5em;
+}
+/** mapweb nav, mapweb ul li and others are items of mapweb container */
+.mapweb nav{
+  padding: 0.9375em 0.9375em;
+  width: 100%;
   display: flex;
-  padding: 10px 14px;
-  background-color: #ff7456;
+  align-items: center;
+  justify-content: space-evenly;
+  position: sticky;
 }
 
-.nav ul li {
-  display: inline-block;
+.mapweb ul li {
   list-style: none;
-  color: #ffe1db;
-  padding: 6px 7px;
-  font-weight: 300;
-  font-size: 1.2rem;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0px 0.25em;
+  font-size: 1.1em;
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: 400;
+  cursor: pointer;
+}
+.mapweb ul li a{
+  color: #FF8B72;
 }
 
-.nav p {
-  color: #ffe1db;
-  font-weight: 700;
-  font-size: 2rem;
-}
-.nav a {
+.mapweb a {
   text-decoration: none;
 }
-
-.container {
-  width: 60%;
-  height: 80%;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  right: -20%;
-  border-radius: 6%;
-  margin-top: 5%;
+.mapweb nav p{
+  padding: 0px 0.625em;
+  color: #FF8B72;
+  font-size: 2em;
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: bold 700;
 }
+/** mapweb nav, mapweb ul li and others are items of mapweb container (end) */
 
-.container button {
-  width: 150px;
-  height: 50px;
-  border-style: none;
-  border-radius: 15%;
-  text-align: center;
-}
 
-.container .imgb {
-  width: 12px;
-  height: 12px;
-  position: relative;
-  right: 0px;
-  bottom: -2px;
-}
-.h1a {
-  color: #fcb69f;
-  font-size: 2.5rem;
-  position: relative;
-  padding: 9px;
-  font-weight: 900;
-}
+/** this is an image (the image belongs to the container block) */
 
-.imgwork {
+#teamAbout{
   width: 40%;
-  height: 40%;
+}
+
+/** ------------------------ this is the container for the mapweb block ----------------- */ 
+.content{
+  display: flex;
+  padding-bottom: 3.125em;
+}
+
+.moreInfo{
+  padding: 0.625em 1.5625em;
+  margin: 0;
+}
+
+.moreInfo h1{
+  font-family: 'Balsamiq Sans', cursive;
+  color: #FF8B72;
+  font-size: 1.8125em;
+}
+
+.moreInfo p{
+  color: #FF8B72;
+  font-size: 1.5625em;
+  padding: 18px;
+  font-weight: 400;
+}
+
+.moreInfo button{
+  border-radius: 0.5em;
+  padding: 0.3125em;
+  border-color: #FF8B72;
+  background-color: transparent;
+  color: #FF8B72;
+  outline: none;
+  border-style: solid;
   position: relative;
-  padding-left: 40px;
-  padding-bottom: 40px;
+  left: 30%;
 }
 
-.h2a {
-  display: inline-flex;
-  position: absolute;
-  left: 25%;
-  top: 40px;
+.moreInfo button:hover{
+  color: #FFF;
+  background-color: #FF8B72;
+  transition: all 0.1s ease 0.2s;
+  font-weight: 400;
+  cursor: pointer;
 }
-
-@media screen and (max-width: 1000px) {
-  nav {
-    flex-direction: column;
-    justify-content: center;
-  }
-  .container {
-    flex-direction: column;
-    justify-content: center;
-  }
-}
+/** ------------------------ this is the container for the mapweb block (end)----------------- */ 
